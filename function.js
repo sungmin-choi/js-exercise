@@ -97,6 +97,6 @@ const simplePrint = function(){
     console.log('simpleprint');
 };
 
-const simplePrint = () => onsole.log('simpleprint');//이런식으로 표현가능.
+const simplePrint = () => console.log('simpleprint');//이런식으로 표현가능.
 
 

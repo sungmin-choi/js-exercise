@@ -39,7 +39,8 @@ class User{
     }
 }
 
-const user1 = new user1('Steve','Job',-1);
+const user1 = new User('Steve','Job',-1);
+console.log(user1.age)
 
 // 3.static properties and methods
 // static은 class자체에서만 호출가능함 object만들었다고 static 변수를 호출할수가없다
@@ -57,8 +58,9 @@ class Article{
 
 const article1 = new Article(1);
 const article2 = new Article(2);
-console.log(article.publisher) // undefined
-console.log(Article.publisher)//Dream coding
+console.log(article1.publisher);// undefined
+console.log(Article.publisher);//Dream coding
+console.log(Article.printPublisher());//Dream coding
 
 //4.Inheritance 상속
 
