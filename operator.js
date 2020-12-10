@@ -70,7 +70,7 @@ console.log(ellie1===ellie3);//ellie1을 ellie3한테 아예 덮어서 복사시
 //break는 아예loop문을 다 나가버릴때쓰고
 //continue 는 당장 실행중인 block만 나가게된다.
 
-
+dd
 
 
 
